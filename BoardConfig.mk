@@ -1,4 +1,4 @@
-# Version 3.3.1-103_ianmacd.
+# Version 3.3.1-106_ianmacd.
 
 # Architecture
 TARGET_ARCH := arm64
@@ -35,7 +35,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 TARGET_PREBUILT_KERNEL := device/samsung/d1/prebuilt/Image
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=exynos9825
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 1 --board SRPSD26B003RU
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --header_version 1 --board SRPSD26B004RU
 
 # Platform
 TARGET_BOARD_PLATFORM := exynos5
@@ -73,7 +73,7 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_PREBUILT_DTBOIMAGE := device/samsung/d1/prebuilt/recovery_dtbo
 PLATFORM_VERSION := 10
 PLATFORM_SECURITY_PATCH := 2020-06-01
-TW_DEVICE_VERSION := 103
+TW_DEVICE_VERSION := 106
 
 #SHRP_Variables
 BUILD_SHRP_REC := true
