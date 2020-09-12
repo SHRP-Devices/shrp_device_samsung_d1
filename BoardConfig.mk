@@ -11,7 +11,7 @@
 # limitations under the License.
 #
 
-# Version 3.4.0-3_ianmacd.
+# Version 3.4.0-3p1_ianmacd.
 
 DEVICE_PATH := device/samsung/d1
 
