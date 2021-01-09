@@ -15,3 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_d1.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_d1-eng
